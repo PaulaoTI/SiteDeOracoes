@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orações</title>
+    <link rel="shortcut icon" href="imagens/logo.avif" type="image/x-icon">
+    <title>Site de orações | Menu</title>
     <style>
         body {
             display: flex;
@@ -11,30 +13,77 @@
             align-items: center;
             flex-direction: column;
             text-align: center;
-            background-color: rgb(248, 40, 40);
+            background-color: rgba(253, 22, 22, 0.884);
             background-repeat: no-repeat;
             background-position: center;
-            height: 100vh;
+            height: 200vh;
             margin: 0;
         }
+
         a {
             font-size: 22px;
             color: #ffffff;
             padding: 10px 20px;
             border-radius: 5px;
+            text-decoration: none;
+
         }
-        p {
+
+        .moldura {
+            background-image: url('imagens/bordas1.webp');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 100px;
+            text-align: center;
             font-size: 24px;
             color: #ffffff;
         }
+
+        .moldura1 {
+            background-image: url('imagens/bordas1.webp');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 100px;
+            text-align: center;
+            font-size: 25px;
+        }
     </style>
 </head>
+
 <body>
-    <p>Orações para crescer na fé</p>
-    <a href="oracoes/OracaoPoderosa.pdf" target="_blank">1. Oração poderosa</a>
-    <a href="oracoes/OracaoPraVida.pdf" target="_blank">2. Oração para a vida</a>
-    <a href="rosario.html">3. Rosário</a>
-    <a href="santos.html">4. Oração dos Santos</a>
-    <a href="tercos.html">5. Terços</a>
+
+    <p>
+    <div class="moldura">
+        Orações
+    </div>
+    </p>
+    <div class="moldura1">
+        <a href="oracoes/OracaoPoderosa.pdf" target="_blank">
+            Oração para familia
+        </a>
+    </div>
+    <div class="moldura1">
+        <a href="oracoes/OracaoPraVida.pdf" target="_blank">
+            Oração para a vida
+        </a>
+    </div>
+    <div class="moldura1">
+        <a href="rosario.html">
+            Rosário
+        </a>
+    </div>
+    <div class="moldura1">
+        <a href="santos.html">
+            Oração dos Santos
+        </a>
+    </div>
+    <div class="moldura1">
+        <a href="tercos.html">
+            Terços
+        </a>
+    </div>
 </body>
+
 </html>
