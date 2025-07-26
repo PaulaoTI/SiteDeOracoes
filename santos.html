@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,7 +7,6 @@
     <title>Site de orações | Oração dos Santos</title>
     <style>
         body {
-            min-height: 100vh;
             padding: 20px;
             overflow-y: auto;
             display: flex;
@@ -38,17 +36,17 @@
             border-radius: 5px;
             width: 100%;
             margin-bottom: 10px;
-            border: 1px solid #000000;
             background-color: #f8f8f8;
             box-sizing: border-box;
+            box-shadow: 0 0 5px #ffd700, 0 0 10px #ffd700, 0 0 20px #ffd700;
         }
 
         .container summary {
             padding: 10px;
-            background-color: #daa30e;
+            background-color: #ffd700;
             border-radius: 5px;
             cursor: pointer;
-            color: #ffffff;
+            color: #222222;
             font-size: 24px;
             list-style: none;
         }
@@ -66,11 +64,23 @@
             text-align: justify;
             white-space: pre-line;
         }
+
+        .moldura {
+            background-image: url('imagens/bordas1.webp');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 130px;
+            text-align: center;
+            font-size: 24px;
+            color: #ffffff;
+        }
     </style>
 </head>
-
 <body>
-    <p>Santos e suas orações</p>
+    <div class="moldura">
+        Santos e suas orações
+    </div>
     <div class="container">
         <details>
             <summary>Santa Águeda</summary>
@@ -240,6 +250,21 @@
             </div>
         </details>
         <details>
+            <summary>São Joaquim</summary>
+            <div class="content">
+                Ó Beatíssimos pais da Mãe de Deus, São Joaquim e Santa Ana, nós vos saudámos e bendizemos com devoção e
+                amor.
+                Alegramo-nos de todo o coração pela vossa glória e por aquele sublime privilégio pelo qual Deus vos
+                escolheu
+                para serdes os pais da Mãe de Deus, Maria Santíssima. Rogai por nós a Jesus e a Maria para que nós os
+                agrademos em tudo. Tende piedade de nós como os pais têm de seus filhos. Nós vos pedimos do fundo do
+                coração para que intercedeis ao vosso Divino Neto para que nos ajude na nossa caminhada e ilumine os
+                nossos espíritos. Sede nossos consoladores na vida e na morte. Assisti-nos na nossa última agonia, para
+                que dignamente recebamos os santos sacramentos da Igreja e, partindo deste mundo com o coração contrito,
+                possamos chegar ao céu. Amém.
+            </div>
+        </details>
+        <details>
             <summary>São Miguel Arcanjo</summary>
             <div class="content">
                 São Miguel Arcanjo,<br />
@@ -293,5 +318,4 @@
         </details>
     </div>
 </body>
-
 </html>
