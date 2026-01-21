@@ -43,26 +43,39 @@
             filter: drop-shadow(0 0 1px #000000);
         }
 
-        .precatiopostconfessionem {
-            display: block;
-            text-align: center;
-            margin: 0 auto;
-            max-width: 400px;
-            padding: 20px;
-        }
-
-        .precatiopostconfessionem p {
-            font-size: 22px;
-            color: #000000;
-            user-select: none;
+        .container details {
+            border-radius: 5px;
+            width: 100%;
             margin-bottom: 10px;
+            background-color: #f8f8f8;
+            box-sizing: border-box;
+            box-shadow: 0 0 5px #000000b6, 0 0 10px #000000bb, 0 0 20px #000000;
+            border: 1px solid #db1bf5;
+            user-select: none;
         }
 
-        .precatiopostconfessionem h2 {
-            font-size: 20px;
-            color: #000000;
-            font-weight: normal;
-            margin: 0;
+        .container summary {
+            padding: 10px;
+            background-color: #db1bf5;
+            border-radius: 5px;
+            cursor: pointer;
+            color: #ffffff;
+            font-size: 24px;
+            list-style: none;
+        }
+
+        .container summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .container .content {
+            padding: 10px;
+            color: rgb(0, 0, 0);
+            background-color: #f8f8f8;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: justify;
+            white-space: pre-line;
         }
     </style>
 </head>
@@ -74,17 +87,53 @@
         </a>
     </div>
 
-    <div class="precatiopostconfessionem">
-        <p>Oração pós Confissão</p>
-        <h2>
-            Eu Vos dou graças, Senhor Pai Santo, Deus eterno e todo-poderoso, que, sem mérito algum da minha parte, mas
-            por efeito da Vossa misericórdia, Vos dignastes perdoar os meus pecados.
-            Peço-Vos que esta confissão não me seja motivo de castigo, mas intercessão para o perdão; que ela me sirva
-            de armadura de fé e escudo de boa vontade para que eu não volte a cair. Fortalecei-me na prática do bem e
-            ajudai-me a caminhar na Vossa luz. Amém.
-        </h2>
+    <div class="container">
+        <details>
+            <summary>Oração para antes da confissão</summary>
+            <div class="content">
+                Oh! Senhor, tende piedade de mim, que sou pecador. Eu pequei. E se eu digo que não pequei, sou
+                mentiroso, e a verdade não está em mim. Vossos olhos estão sempre sobre mim e veem tudo o que há de
+                imperfeito e criminoso em mim, e meus pecados não estão escondidos de Vós. Faz-me conhecê-los, pois quem
+                conhece os próprios pecados? Faz-me conhecer o número, a gravidade e tudo o que me é necessário saber,
+                para que eu os confesse com sinceridade e os deteste fortemente. Dando-me a graça de conhecê-los, dai-me
+                também o ódio e a aversão a eles, formai em mim um arrependimento de tê-los cometido e a decisão de não
+                mais cometê-los. Dai-me um espírito de penitência e, tendo quebrado a dureza do meu coração, faz com que
+                saiam lágrimas de arrependimento, Vós que, acertando a rocha no deserto, transformou-a em uma fonte de
+                água viva. E, a fim de que as lágrimas de contrição que eu derramarei diante de Vós transformem-se em um
+                banho salutar que devolve a vida e a saúde a minha alma, coloque-os sob as lágrimas e o sangue que Jesus
+                Cristo, Vosso Filho, derramou por mim e atende-o ascendendo em meu coração o fogo de Vosso amor. Eu
+                desejo amar-vos muito, Oh meu Deus, a fim de que vós me perdoeis dos meus muitos pecados. Assim seja.
+            </div>
+        </details>
+        <details>
+            <summary>Oração à Maria para antes da confissão</summary>
+            <div class="content">
+                Minha Senhora e minha Mãe, dai-me a graça de conhecer meus pecados em todo o seu tamanho, em toda a sua
+                gravidade e em toda a sua malícia, e dai-me inquebrantável ódio a esses pecados, para que, odiando-os
+                assim, eu possa vencê-los.
+                Dai-me aquela forma perfeitíssima de arrependimento que Vós quereis de mim, aquela compunção de David
+                penitente, aquele seu lamento sereno e cheio de confiança, aquela sua dor pungente.
+                Fazei, ó minha Mãe, com que meus pecados estejam sempre diante de mim, e dai-me aquele coração contrito
+                e humilhado que Vós não desprezais
+            </div>
+        </details>
+        <details>
+            <summary>Ato de contrição</summary>
+            <div class="content">
+                Senhor meu, Jesus Cristo, Deus e homem verdadeiro, Criador e Redentor meu, por serdes Vós quem sois, sumamente bom e digno de ser amado sobre todas as coisas, e porque Vos amo e Vos estimo, pesa-me, Senhor, de vos ter ofendido; e proponho firmemente, ajudado com os auxílios de Vossa divina graça, emendar-me e nunca mais tornar a Vos ofender; espero alcançar de Vossa infinita misericórdia o perdão de minhas culpas. Amém.
+            </div>
+        </details>
+        <details>
+            <summary>Oração pós Confissão</summary>
+            <div class="content">
+                Eu Vos dou graças, Senhor Pai Santo, Deus eterno e todo-poderoso, que, sem mérito algum da minha parte,
+                mas por efeito da Vossa misericórdia, Vos dignastes perdoar os meus pecados.
+                Peço-Vos que esta confissão não me seja motivo de castigo, mas intercessão para o perdão; que ela me
+                sirva de armadura de fé e escudo de boa vontade para que eu não volte a cair. Fortalecei-me na prática
+                do bem e ajudai-me a caminhar na Vossa luz. Amém.
+            </div>
+        </details>
     </div>
-
 </body>
 
 </html>
